@@ -23,5 +23,12 @@ public class Conteiner extends Item{
         return saida;
     }
 
+    public double getPesoInventario(){
+        double peso = 0.0;
+        for (Item item:itens){
+            peso += item.getPesoInventario();
+        }
+        return peso;
+    }
 
 }

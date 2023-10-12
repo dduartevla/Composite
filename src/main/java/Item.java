@@ -17,4 +17,6 @@ public abstract class Item {
     }
 
     public abstract String getConteudoInventario();
+
+    public abstract double getPesoInventario();
 }

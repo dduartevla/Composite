@@ -18,8 +18,13 @@ public class ItemIndividual extends Item{
     }
 
     public String getConteudoInventario(){
-        return "Item: " + this.getNome()
-                + "Valor: " + this.getValor()
-                + "Peso: " + this.peso + "\n";
+        return "   "+this.getNome() + " -> "
+                + " Valor:" + this.getValor()
+                + " Peso:" + this.peso + "\n";
+    }
+
+    @Override
+    public double getPesoInventario() {
+        return this.getPeso();
     }
 }

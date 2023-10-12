@@ -12,4 +12,11 @@ public class Inventario {
         }
         return this.item.getConteudoInventario();
     }
+
+    public double getPesoInventario(){
+        if(this.item ==null){
+            return 0.0f;
+        }
+        return this.item.getPesoInventario();
+    }
 }
