@@ -16,5 +16,5 @@ public abstract class Item {
         return this.valor;
     }
 
-    public abstract double getPeso();
+    public abstract String getConteudoInventario();
 }

@@ -8,7 +8,7 @@ public class ItemIndividual extends Item{
     }
 
 
-    @Override
+
     public double getPeso() {
         return this.peso;
     }
